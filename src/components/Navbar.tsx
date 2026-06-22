@@ -13,7 +13,7 @@ import {
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { cn } from '@/lib/utils';
-import { AnnouncementMarquee } from '@/components/AnnouncementMarquee';
+
 import { useToast } from '@/hooks/use-toast';
 import { NAV_LINKS } from '@/lib/constants';
 import logo from '../logo.webp';
@@ -210,7 +210,7 @@ export const Navbar = () => {
         </div>
       </nav>
 
-      {isHome ? <AnnouncementMarquee variant={onDarkHero ? 'dark' : 'light'} /> : null}
+
 
       <AnimatePresence>
         {isMobileMenuOpen && (

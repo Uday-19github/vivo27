@@ -31,28 +31,30 @@ export const SITE = {
 // Navigation — About is a dedicated route; other anchors target home sections via /#…
 export const NAV_LINKS = [
   { label: 'About', href: '/about' },
-  { label: 'Internship', href: '/#internship' },
   { label: 'Services', href: '/#services' },
   { label: 'Process', href: '/#process' },
   { label: 'Work', href: '/#projects' },
   { label: 'Contact', href: '/#contact' },
 ] as const;
 
+
 /** Homepage announcement ticker (shown below navbar) */
 export const INTERNSHIP_MARQUEE_SEGMENTS = [
-  'New batch open — 3-Month AI & Python Internship',
+  'New batch open — 3-Month AI & Python Program',
   'Limited seats — register now',
   '1 hour daily training · Guest lectures · Certificate · Real-time projects',
   'Call +91 9573157982 · techvistar.com',
 ] as const;
 
+
 /** 3-month program — aligned with public internship poster */
 export const INTERNSHIP_PROGRAM = {
-  eyebrow: 'Professional internship',
+  eyebrow: 'Professional program',
   title: '3-Month AI & Python',
-  titleAccent: 'Internship Program',
+  titleAccent: 'Program',
   subtitle:
     'A structured, twelve-week pathway from Python fundamentals through applied AI and generative systems—delivered with weekly learning outcomes, guided practice, and a capstone project suitable for your portfolio.',
+
   summaryStats: [
     { label: 'Duration', value: '3 months' },
     { label: 'Curriculum', value: '12 weeks' },
@@ -97,9 +99,10 @@ export const INTERNSHIP_PROGRAM = {
   highlights: [
     '1 hour daily structured training',
     'Guest lectures on alternate weeks',
-    'Internship certificate on completion',
+    'Program certificate on completion',
     'Real-time project experience',
   ],
+
   audience: [
     'B.Tech / degree students',
     'Diploma students',
@@ -523,8 +526,8 @@ export const FOOTER_LINKS = {
   ],
   company: [
     { label: 'About', href: '/about' },
-    { label: 'Internship', href: '/#internship' },
     { label: 'Process', href: '/#process' },
+
     { label: 'Benefits', href: '/#benefits' },
     { label: 'Clients', href: '/#testimonials' },
     { label: 'Contact', href: '/#contact' },

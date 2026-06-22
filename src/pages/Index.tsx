@@ -1,7 +1,7 @@
 import { JsonLd } from '@/components/JsonLd';
 import { Navbar } from '@/components/Navbar';
 import { HeroSection } from '@/components/HeroSection';
-import { InternshipProgramSection } from '@/components/InternshipProgramSection';
+
 import { ServicesSection } from '@/components/ServicesSection';
 import { ProcessSection } from '@/components/ProcessSection';
 import { BenefitsSection } from '@/components/BenefitsSection';
@@ -20,7 +20,7 @@ const Index = () => {
       <main id="main-content" className="min-h-screen bg-background">
         <Navbar />
         <HeroSection showAnnouncementBar />
-        <InternshipProgramSection />
+
         <ServicesSection />
         <ProjectsSection />
         <ProcessSection />
