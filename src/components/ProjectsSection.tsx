@@ -2,6 +2,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 import AutoScroll from 'embla-carousel-auto-scroll';
 import { ExternalLink, Github, ArrowUpRight } from 'lucide-react';
 import { useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import { useAnimatedSection } from '@/hooks/useAnimatedSection';
 import { SiteSection } from '@/components/SiteSection';
 import { SectionHeader } from '@/components/ui/SectionHeader';
@@ -262,13 +263,13 @@ export const ProjectsSection = () => {
           transition={{ duration: 0.45, delay: 0.15 }}
           className="mt-12 text-center"
         >
-          <a
-            href="/#contact"
+          <Link
+            to="/#contact"
             className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80"
           >
             Request a technical scoping call
             <ArrowUpRight className="h-4 w-4" />
-          </a>
+          </Link>
         </motion.div>
       </div>
     </SiteSection>
